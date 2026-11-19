@@ -2,3 +2,7 @@ _site/
 .claude/
 __pycache__/
 .DS_Store
+
+# my global gitignore skips folders called log/; this site needs content/log
+!log/
+!content/log/
